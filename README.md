@@ -9,10 +9,10 @@ To get started, we have to download the latest version from the MongoDB Download
 
 Next, we’ll start mongod service using the command line:
 
-_ _mongod --replSet rs0_ _
+*mongod --replSet rs0*
 
 Finally, initiate replica set – if not already:
 
-_ _mongo --eval "rs.initiate()"_ _
+*mongo --eval "rs.initiate()"*
 
 Note that MongoDB currently supports transactions over a replica set.
